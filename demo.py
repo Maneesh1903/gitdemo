@@ -1,8 +1,6 @@
-marks=95
-
-if marks<=80:
-    print("qualified")
-elif marks>80 and marks<=90:
-    print("good")
-else:
-    print("excellent")
+num=int(input("enter your number upto 5 digits: "))
+if num>=0 and num<=9: print("single digit number")
+elif num>=10 and num<=99: print("two digit number")
+elif num>=100 and num<=999: print("three digit number")
+elif num>=1000 and num<=9999: print("four digit number")
+else: print("five digit number")
